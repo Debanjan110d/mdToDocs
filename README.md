@@ -4,6 +4,12 @@
   <img src="public/logo.svg" alt="mdToDocs Logo" width="80" height="80" />
   <p><strong>A fast, distraction-free utility to convert Markdown into beautifully formatted PDF and DOCX documents directly in your browser.</strong></p>
   <p>100% Client-Side • Zero Data Storage • Selectable Vector PDF • Native Word OOXML</p>
+  
+  <p>
+    <a href="https://github.com/Debanjan110d/mdToDocs"><img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository" /></a>
+    <a href="https://buymeachai.in/debanjan110d"><img src="https://img.shields.io/badge/Support-Buy%20me%20a%20Chai%20%E2%98%95-orange" alt="Buy me a Chai" /></a>
+    <a href="https://github.com/Debanjan110d"><img src="https://img.shields.io/badge/Author-@Debanjan110d-green" alt="Author" /></a>
+  </p>
 </div>
 
 ---
@@ -109,6 +115,17 @@ vercel
 3. Import this repository.
 4. Framework Preset: **Vite**.
 5. Click **Deploy**.
+
+---
+
+## Author & Support
+
+Created with passion by **Debanjan** ([@Debanjan110d](https://github.com/Debanjan110d)).
+
+- **GitHub Profile:** [https://github.com/Debanjan110d](https://github.com/Debanjan110d)
+- **Repository:** [https://github.com/Debanjan110d/mdToDocs](https://github.com/Debanjan110d/mdToDocs)
+- **Support the Project:** If you find this converter useful, consider buying me a chai:  
+  👉 **[buymeachai.in/debanjan110d](https://buymeachai.in/debanjan110d)** ☕
 
 ---
 

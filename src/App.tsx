@@ -255,16 +255,45 @@ export function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 py-4 mt-6 bg-white/50 dark:bg-slate-950/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500 dark:text-slate-400">
+      <footer className="border-t border-slate-200 dark:border-slate-800 py-6 mt-6 bg-white/50 dark:bg-slate-950/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
           <div className="flex items-center gap-2">
-            <img src="/logo.svg" alt="mdToDocs Logo" className="w-4 h-4 object-contain" />
+            <img src="/logo.svg" alt="mdToDocs Logo" className="w-5 h-5 object-contain" />
             <span className="font-semibold text-slate-700 dark:text-slate-300">mdToDocs</span>
             <span>—</span>
-            <span>Client-side Markdown to PDF & DOCX converter</span>
+            <span>Client-side Markdown to PDF & DOCX converter. 100% private.</span>
           </div>
-          <div>
-            <span>100% private. Files never leave your browser.</span>
+
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+            <span>
+              Crafted by{' '}
+              <a
+                href="https://github.com/Debanjan110d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                @Debanjan110d
+              </a>
+            </span>
+            <span className="text-slate-300 dark:text-slate-700">•</span>
+            <a
+              href="https://github.com/Debanjan110d/mdToDocs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-900 dark:hover:text-slate-200 hover:underline"
+            >
+              GitHub Repository
+            </a>
+            <span className="text-slate-300 dark:text-slate-700">•</span>
+            <a
+              href="https://buymeachai.in/debanjan110d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-semibold text-amber-600 dark:text-amber-400 hover:underline"
+            >
+              <span>☕ Buy me a Chai</span>
+            </a>
           </div>
         </div>
       </footer>
